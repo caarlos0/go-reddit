@@ -8,7 +8,7 @@
 
 [![Actions Status](https://github.com/caarlos0/go-reddit/workflows/tests/badge.svg)](https://github.com/caarlos0/go-reddit/actions)
 [![Go Report Card](https://goreportcard.com/badge/github.com/caarlos0/go-reddit)](https://goreportcard.com/report/github.com/caarlos0/go-reddit)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/caarlos0/go-reddit/v2/reddit)](https://pkg.go.dev/github.com/caarlos0/go-reddit/v2/reddit)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/caarlos0/go-reddit/v3/reddit)](https://pkg.go.dev/github.com/caarlos0/go-reddit/v3/reddit)
 
 </div>
 
@@ -27,13 +27,13 @@ You can view Reddit's official API documentation [here](https://www.reddit.com/d
 To get a specific version from the list of [versions](https://github.com/caarlos0/go-reddit/releases):
 
 ```sh
-go get github.com/caarlos0/go-reddit/v2@vX.Y.Z
+go get github.com/caarlos0/go-reddit/v3@vX.Y.Z
 ```
 
 Or for the latest version:
 
 ```sh
-go get github.com/caarlos0/go-reddit/v2
+go get github.com/caarlos0/go-reddit/v3
 ```
 
 The repository structure for managing multiple major versions follows the one outlined [here](https://github.com/go-modules-by-example/index/tree/master/016_major_version_repo_strategy#major-branch-strategy).
@@ -45,7 +45,7 @@ Make sure to have a Reddit app with a valid client id and secret. [Here](https:/
 ```go
 package main
 
-import "github.com/caarlos0/go-reddit/v2/reddit"
+import "github.com/caarlos0/go-reddit/v3/reddit"
 
 func main() {
     credentials := reddit.Credentials{ID: "id", Secret: "secret", Username: "username", Password: "password"}

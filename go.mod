@@ -1,4 +1,4 @@
-module github.com/caarlos0/go-reddit/v2
+module github.com/caarlos0/go-reddit/v3
 
 go 1.17
 
