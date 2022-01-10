@@ -1,3 +1,11 @@
+*this is just a fork because of this issue https://github.com/vartanbeno/go-reddit/issues/26*
+
+*nothing changed besides what needed to change for this to work.*
+
+**I will not merge anything here, nor provide any kind of support.**
+
+----
+
 <div align='center'>
 <br />
 <img src='./images/logo.png' alt='go-reddit logo' height='150'>
